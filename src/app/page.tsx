@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Slider from "@/components/Slider";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="p-4  mx-auto max-w-screen-xl">
       <Navbar />
       <Hero />
+      <Slider />
     </div>
   );
 }

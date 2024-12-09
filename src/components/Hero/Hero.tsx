@@ -7,7 +7,7 @@ export const Hero = () => {
             <div className="flex flex-col  space-y-8 justify-center">
                 <h1 className='text-6xl'>Navigating the digital landscape for success</h1>
                 <p className='text-xl'>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
-                <Button className='w-64'>Book a consultation</Button>
+                <Button className='w-64 h-12'>Book a consultation</Button>
             </div>
         </div>
     )
