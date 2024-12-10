@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Service from "@/components/Service";
 import Slider from "@/components/Slider";
+import Team from "@/components/Team";
+import Testimonial from "@/components/Testimonial";
 import WorkingProcess from "@/components/WorkingProcess";
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <Service />
       <CaseStudies />
       <WorkingProcess />
+      <Team />
+      <Testimonial />
     </div>
   );
 }

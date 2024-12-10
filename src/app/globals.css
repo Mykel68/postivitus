@@ -38,6 +38,22 @@ border: 1px solid #191A23;
 box-shadow: 0px 5px 0px 0px #191A23;
 }
 
+.team-card-brd {
+  border-radius: 2.8125rem;
+border: 1px solid #191A23;
+background: #FFF;
+box-shadow: 0px 5px 0px 0px #191A23;
+}
+
+.clip {
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+/* .green-pics {
+  background: linear-gradient(0deg, #B9FF66 0%, #B9FF66 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+background-blend-mode: multiply, normal;
+} */
+
 @layer base {
   :root {
     --background: 0 0% 100%;
